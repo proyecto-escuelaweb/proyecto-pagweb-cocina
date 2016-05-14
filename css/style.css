@@ -1,8 +1,10 @@
+/*contenido de pantilla*/
 .menufinal {
   margin: 0 auto;
   width: 430px;
   display: block;
 }
+/*final de contenid de pantilla*/
 
 /*contenido de tienda*/
 .video-header {
@@ -11,6 +13,10 @@
  
 }
 
+.buscador-tienda {
+  height: 100px;
+  background-color: dimgrey;
+}
 .contenido-tienda {
   height: 1000px;
   background-color: beige;
@@ -20,3 +26,5 @@
   height: 1000px;
   background-color: gray;
 }
+
+/*final de contenido de tienda*/
