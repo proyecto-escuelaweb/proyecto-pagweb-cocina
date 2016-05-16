@@ -47,13 +47,10 @@
 
 .contenido-carrusel {
     height: 300px;
+    background-color:burlywood;
     
 }
 
-.carrusel {
-    height: 300px;
-    background-color: antiquewhite;
-}
 /*final de contenido de tienda.html*/
 
 /*contenido de producto*/
