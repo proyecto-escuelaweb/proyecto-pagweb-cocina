@@ -40,7 +40,7 @@
 .text-align-center {
 	text-align: center;
 }
-/*final de contenid de pantilla.html*/
+/*final de contenido de pantilla.html*/
 
 /*contenido de tienda.html*/
 .video-header {
@@ -94,16 +94,23 @@
 
 /*contenido de producto*/
 .producto {
-    height: 600px;
+    height: 700px;
     background-color: dimgray;
 }
 
 .foto-detalle {
     margin-top:100px;
     height: 500px;
-    background-color: whitesmoke;
-  
+    background-color: blue;
     display: inline-block;
+}
+.box-producto {
+    width: 500px;
+    height: 500px;
+}
+.box-precio-puntaje {
+    width: 500px;
+    height: 100px;
 }
 .descripcion-producto {
     margin-top: 100px;
