@@ -13,13 +13,32 @@
 
 .carrito-sidebar {
 	background-color: #eee;
+	position: static;
+	box-sizing: border-box;
+	padding: 10px;
 }
 
 .carrito-sidebar h4 {
 	background-color: #444;
 	color: #fff;
 	padding: 10px;
+	margin: 0 0 10px 0;
 	box-sizing: border-box;
+}
+
+.textbox { 
+  border: 1px solid #999; 
+  outline:0;
+	padding: 0 2px;
+  width: 50px; 
+	text-align: center
+  }
+
+.carrito-col {
+	height: 180px;
+}
+.text-align-center {
+	text-align: center;
 }
 /*final de contenid de pantilla.html*/
 
