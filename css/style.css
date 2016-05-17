@@ -1,3 +1,5 @@
+
+
 /*contenido de pantilla.html*/
 .menufinal {
   margin: 0 auto;
@@ -93,6 +95,11 @@
 /*final de contenido de tienda.html*/
 
 /*contenido de producto*/
+.numero{
+  display: inline-block;
+  width: 20%; 
+}
+
 .producto {
     height: 700px;
     background-color: dimgray;
@@ -101,12 +108,12 @@
 .foto-detalle {
     margin-top:100px;
     height: 500px;
-    background-color: blue;
+    background-color:whitesmoke;
     display: inline-block;
 }
 .box-producto {
     width: 500px;
-    height: 500px;
+    height:500px;
 }
 .box-precio-puntaje {
     width: 500px;
