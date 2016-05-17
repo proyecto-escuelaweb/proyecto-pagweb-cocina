@@ -13,13 +13,32 @@
 
 .carrito-sidebar {
 	background-color: #eee;
+	position: static;
+	box-sizing: border-box;
+	padding: 10px;
 }
 
 .carrito-sidebar h4 {
 	background-color: #444;
 	color: #fff;
 	padding: 10px;
+	margin: 0 0 10px 0;
 	box-sizing: border-box;
+}
+
+.textbox { 
+  border: 1px solid #999; 
+  outline:0;
+	padding: 0 2px;
+  width: 50px; 
+	text-align: center
+  }
+
+.carrito-col {
+	height: 180px;
+}
+.text-align-center {
+	text-align: center;
 }
 /*final de contenid de pantilla.html*/
 
@@ -63,9 +82,12 @@
 }
 
 .contenido-carrusel {
-    height: 300px;
-    background-color:burlywood;
-    
+    height: 400px;
+  
+}
+
+.container-carrusel {
+    height: 200px;
 }
 
 /*final de contenido de tienda.html*/
@@ -80,6 +102,7 @@
     margin-top:100px;
     height: 500px;
     background-color: whitesmoke;
+  
     display: inline-block;
 }
 .descripcion-producto {
@@ -162,6 +185,7 @@
 
 /*final de lightbox*/
 
+<<<<<<< HEAD
 .main-container {
     padding: 40px 0;
     
@@ -176,3 +200,5 @@ element.style {
  background-color: #ffffff
 }
 /*  Blog termina*/
+=======
+>>>>>>> 948145cfe0156bd2532ff38bb725ac71624e527e

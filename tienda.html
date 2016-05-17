@@ -7,7 +7,8 @@
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/mediaquery.css">
-  <link rel="stylesheet" href="css/owl.carousel.css">
+  <link rel="stylesheet" href="carousel/assets/owl.carousel.css">
+  <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
   <script src="https://use.fontawesome.com/3aec10040d.js"></script>
 </head>
 <body>
@@ -52,75 +53,84 @@
   </div><!-- /.container-fluid -->
 </nav>
 
-<section class="video-header">
-            <div class="container-fluid">
-                <div class="row">
-                    <article class="col-md-12">
+  <section class="video-header">
+      <div class="container-fluid">
+          <div class="row">
+              <article class="col-md-12">
 
-                    </article>
-                </div>
+              </article>
+          </div>
+      </div>
+  </section>
+
+
+  <section class="buscador-tienda">
+      <div class="container">
+          <div class="row">
+
+          </div>
+      </div>
+  </section>
+
+  <section class="contenido-tienda">
+      <div class="container-cajas">
+        <div class="row">
+          <article class="col-md-4 col-xs-12">
+            <div class="box" id="c1">
+              <img src="http://placehold.it/300x270" alt="">
+              <div class="caja-interna"></div>
             </div>
-        </section>
-
-
-        <section class="buscador-tienda">
-            <div class="container">
-                <div class="row">
-
-                </div>
+          </article>
+          <article class="col-md-4 col-xs-12">
+            <div class="box" id="c2">
+              <img src="http://placehold.it/300x270" alt="">
+              <div class="caja-interna"></div>
             </div>
-        </section>
-
-        <section class="contenido-tienda">
-            <div class="container-cajas">
-            <div class="row">
-              <article class="col-md-4 col-xs-12">
-                <div class="box" id="c1">
-                  <img src="http://placehold.it/300x270" alt="">
-                  <div class="caja-interna"></div>
-                </div>
-              </article>
-              <article class="col-md-4 col-xs-12">
-                <div class="box" id="c2">
-                  <img src="http://placehold.it/300x270" alt="">
-                  <div class="caja-interna"></div>
-                </div>
-              </article>
-              <article class="col-md-4 col-xs-12">
-                <div class="box" id="c3">
-                  <img src="http://placehold.it/300x270" alt="">
-                  <div class="caja-interna"></div>
-                </div>
-              </article>
-              <article class="col-md-4 col-xs-12">
-                <div class="box" id="c4">
-                  <img src="http://placehold.it/300x270" alt="">
-                  <div class="caja-interna"></div>
-                </div>
-              </article>
-              <article class="col-md-4 col-xs-12">
-                <div class="box" id="c5">
-                  <img src="http://placehold.it/300x270" alt="">
-                  <div class="caja-interna"></div>
-                </div>
-              </article>
-              <article class="col-md-4 col-xs-12">
-                <div class="box" id="c6">
-                  <img src="http://placehold.it/300x270" alt="">
-                  <div class="caja-interna"></div>
-                </div>
-              </article>
+          </article>
+          <article class="col-md-4 col-xs-12">
+            <div class="box" id="c3">
+              <img src="http://placehold.it/300x270" alt="">
+              <div class="caja-interna"></div>
             </div>
-           
+          </article>
+          <article class="col-md-4 col-xs-12">
+            <div class="box" id="c4">
+              <img src="http://placehold.it/300x270" alt="">
+              <div class="caja-interna"></div>
+            </div>
+          </article>
+          <article class="col-md-4 col-xs-12">
+            <div class="box" id="c5">
+              <img src="http://placehold.it/300x270" alt="">
+              <div class="caja-interna"></div>
+            </div>
+          </article>
+          <article class="col-md-4 col-xs-12">
+            <div class="box" id="c6">
+              <img src="http://placehold.it/300x270" alt="">
+              <div class="caja-interna"></div>
+            </div>
+          </article>
+        </div>
+      </div>
+  </section>
 
         <section class="contenido-carrusel">
-            <div class="owl-carousel owl-theme">
-                <div class="row">
-                    <article class="col-md-10 col-md-offset-1 carrusel">
-                     <img src="http://placehold.it/200x200" alt=""> 
-                    </article>
+              <div class="container-carrusel">
+               <article class="col-md-10 col-md-offset-1 carrusel">
+                  <div class="owl-carousel">
+                    <div class="item"><img src="http://placehold.it/200x200" alt=""></div>
+                    <div class="item"><img src="http://placehold.it/200x200" alt=""></div>
+                    <div class="item"><img src="http://placehold.it/200x200" alt=""></div>
+                    <div class="item"><img src="http://placehold.it/200x200" alt=""></div>
+                    <div class="item"><img src="http://placehold.it/200x200" alt=""></div>
+                    <div class="item"><img src="http://placehold.it/200x200" alt=""></div>
                 </div>
-            </div>  
+                </article>
+              </div>
+              
+          
+              
         </section>
 
         <footer>
@@ -169,8 +179,15 @@
 
 
 
- <script src="js/jquery-2.2.3.min.js"></script>
+ <script src="js/jquery-2.2.0.min.js"></script>
  <script src="js/bootstrap.min.js"></script>
- <script src="js/owl.carousel.js"></script>
-</body>
+ <script src="carousel/owl.carousel.min.js"></script>
+ <script src="js/main.js"></script>
+ 
+ 
+ 
+
+ 
+ 
+  </body>
 </html>
