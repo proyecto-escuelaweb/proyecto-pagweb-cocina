@@ -102,6 +102,8 @@
 }
 /*final de contenido de producto.html*/
 
+/*index*/
+
 /*slideshow*/
 
 #owl-demo .item img{
@@ -120,6 +122,10 @@
 
 .margintop {
   margin-top: 50px;
+}
+
+.margintop2 {
+  margin-top: 20px;
 }
 
 .caja {
@@ -161,4 +167,5 @@
 
 
 /*final de lightbox*/
->>>>>>> ebc213065e09c2c8acb38c2b9660d5bdb4addaae
+
+/*final del index*/
