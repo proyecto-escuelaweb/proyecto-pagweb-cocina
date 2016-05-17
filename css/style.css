@@ -63,9 +63,12 @@
 }
 
 .contenido-carrusel {
-    height: 300px;
-    background-color:burlywood;
-    
+    height: 400px;
+  
+}
+
+.container-carrusel {
+    height: 200px;
 }
 
 /*final de contenido de tienda.html*/
@@ -80,6 +83,7 @@
     margin-top:100px;
     height: 500px;
     background-color: whitesmoke;
+  
     display: inline-block;
 }
 .descripcion-producto {
@@ -161,4 +165,4 @@
 
 
 /*final de lightbox*/
->>>>>>> ebc213065e09c2c8acb38c2b9660d5bdb4addaae
+
