@@ -101,7 +101,7 @@
 }
 
 .producto {
-    height: 700px;
+    height: 600px;
     background-color: dimgray;
 }
 
@@ -116,9 +116,28 @@
     height:500px;
 }
 .box-precio-puntaje {
-    width: 500px;
-    height: 100px;
+    position: absolute;
+    width: 400px;
+    height: 50px;
+    background-color: aqua;
 }
+
+.caja1 {
+    position: relative;
+    width: 200px;
+    height: 50px;
+    background-color: yellow;
+    float: left;
+}
+
+.caja2 {
+  position: relative;
+    width: 200px;
+    height: 50px;
+    background-color: red;
+    float: left;
+}
+
 .descripcion-producto {
     margin-top: 100px;
     height: 500px;
