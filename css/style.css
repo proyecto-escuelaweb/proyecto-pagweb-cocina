@@ -82,6 +82,10 @@ footer .fa {
   color: #5C3330 !important;
 }
 
+footer p {
+    font-family: 'Oswald', sans-serif !Important;
+    font-size: 12px;
+}
 
 .navbar {
     min-height: 70px;
@@ -319,7 +323,7 @@ footer .fa {
 .caja {
     background-color: transparent;
     width: 250px;
-/*    height: 250px;*/
+
     margin: 0 auto;
 }
 
@@ -328,11 +332,7 @@ footer .fa {
     font-size: 25px;
 }
 
-/*
-.parrafo2 {
-    padding: 40px 40px 0px 40px;
-}
-*/
+
 
 .caja-principal {
     border: 1px solid #fff;
@@ -340,14 +340,6 @@ footer .fa {
     border-radius: 5px;
 }
 
-/*
-.caja-principal2 {
-    border: 1px solid #fff;
-    padding: 5px;
-    border-radius: 5px;
-    height: 590px;
-}
-*/
 
 .caja2 {
     margin-left:0px;
@@ -371,27 +363,7 @@ footer .fa {
 .main-container {
     padding: 40px 0;
 
-    /*  Blog empieza*/
-    element.style {
-        margin-top: 0px;
-
-        font-family: 'Open Sans', sans-serif;
-        font-size: 15px;
-        line-height: 1.50;
-        color: #666666;
-        background-color: #ffffff
-    }
-    /*  Blog termina*/
-
-    /*  brand inicio*/
-
-    .brand {
-        width: 10px;
-        height: 10px;
-        margin-top: -20px;
-    }
-
-    /* final de brand*/
-
+ 
+  
 
 
