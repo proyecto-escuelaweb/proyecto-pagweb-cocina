@@ -1,90 +1,96 @@
+
 @import url(https://fonts.googleapis.com/css?family=Oswald|Lora);
 /*font-family: 'Oswald', sans-serif;*/
 /*font-family: 'Lora', serif;*/
 
-/*contenido de pantilla.html*/
+
 
 /*nav*/
 .logo {
-  width: 65px;
+    width: 65px;
 }
 .navbar-nav > li > a {
-  padding-top: 20px !important;
-  padding-bottom: 20px !important;
-  line-height: 30px !important;
-  padding: 0px 30px;
-  color: #5C3330 !important;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+    line-height: 30px !important;
+    padding: 0px 30px;
+    color: #5C3330 !important;
+    font-family: 'Oswald', sans-serif;
+    font-size: 12px;
 }
 /* Underline From Left */
 .hvr-underline-from-left {
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  -moz-osx-font-smoothing: grayscale;
-  position: relative;
-  overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    overflow: hidden;
 }
 .hvr-underline-from-left:before {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  left: 0;
-  right: 100%;
-  bottom: 0;
-  background: #F1D168;
-  height: 4px;
-  -webkit-transition-property: right;
-  transition-property: right;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-timing-function: ease-out;
-  transition-timing-function: ease-out;
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 100%;
+    bottom: 0;
+    background: #F1D168;
+    height: 4px;
+    -webkit-transition-property: right;
+    transition-property: right;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
 }
 .hvr-underline-from-left:hover:before,
 .hvr-underline-from-left:focus:before,
 .hvr-underline-from-left:active:before {
-  right: 0;
+    right: 0;
 }
 /*nav*/
 
 /*helpers*/
 .paddingt50 {
-  padding-top: 50px;
+    padding-top: 50px;
 }
 .paddingb50 {
-  padding-bottom: 50px;
+    padding-bottom: 50px;
 }
 /*helpers*/
 
 /*FOOTER*/
 footer {
-  background: #f4f4f3;
-  width: 100%;
-  margin-top: 100px;
+    background: #f4f4f3;
+    width: 100%;
+    margin-top: 100px;
+    
 }
 footer .pstef {
-  margin-top: 20px;
-  margin-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 footer .pstef a {
-  color: #444;
+    color: olivedrab;
+    font-family: 'Oswald', sans-serif !Important;
 }
 footer .pstef a:hover {
-  text-decoration: none;
+    text-decoration: none;
 }
 footer .fa {
-  padding: 10px 30px;
-  font-size: 22px;
-  color: #5C3330 !important;
+    padding: 10px 30px;
+    font-size: 22px;
+    color: #5C3330 !important;
 }
 
 footer p {
     font-family: 'Oswald', sans-serif !Important;
     font-size: 12px;
+    color: orange;
 }
 
 .navbar {
@@ -141,22 +147,21 @@ footer p {
 /*contenido de tienda.html*/
 
 .contenido-tienda .col-md-4 {
-  margin-top: 30px;
+    margin-top: 30px;
 }
 .contenido-tienda .col-md-4:hover .price {
-  background: #A6BE4A;
-  color: white;
-  transition: all 0.5s ease;
+    background: #A6BE4A;
+    color: white;
+    transition: all 0.5s ease;
 }
 
 .margint30 {
-  margin-top: 30px !Important;
+    margin-top: 30px !Important;
 }
 .acerca {
-  margin-top: 100px;
+    margin-top: 100px;
 }
 .video-header {
-/*    height: 500px;*/
     background-color:gray;
 
 }
@@ -169,11 +174,7 @@ footer p {
     height: 100px;
     background-color: dimgrey;
 }
-.contenido-tienda {
-    /*    height: 740px;*/
-    /*    width: 960px;*/
-    /*    margin: 0 auto;*/
-}
+
 
 .container-cajas {
     height:740px;
@@ -207,24 +208,55 @@ footer p {
 /*final de contenido de tienda.html*/
 
 /*contenido de producto*/
+.inf-price {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    background: #F4F4F4;
+    text-align: center;
+    border: 1px solid #ecf0f1;
+
+}
+.inf-stars {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: orange;
+    font-size: 18px;
+    text-align: center;
+    background: #F4F4F4;
+    border: 1px solid #ecf0f1;
+    
+    
+}
+
+.titulo-detproducto {
+    font-family: 'Oswald', sans-serif;
+    
+}
+.description {
+    font-family: 'Lora', serif;
+    font-size: 16px;
+}
 .price {
-  background: #F4F4F4;
-  padding: 10px 20px;
-  text-align: center;
-  font-weight: 600;
-  text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    background: #F4F4F4;
+    padding: 10px 20px;
+    text-align: center;
+    font-weight: 600;
+    text-transform: uppercase;
 }
 
 .w100 {
-  width: 100% !important;
+    width: 100% !important;
 }
 .productos-relacionados .col-md-3 {
-  margin-top: 30px;
+    margin-top: 30px;
 }
 .productos-relacionados .col-md-3:hover .price {
-  background: #A6BE4A;
-  color: white;
-  transition: all 0.5s ease;
+    background: #A6BE4A;
+    color: white;
+    transition: all 0.5s ease;
 }
 .numero{
     display: inline-block;
@@ -238,15 +270,11 @@ footer p {
 
 .foto-detalle {
     margin-top:100px;
-    /*    height: 500px;*/
-    /*    background-color:whitesmoke;*/
+    
     display: inline-block;
 }
-.box-producto {
-    /*
-    width: 500px;
-    height:500px;
-    */
+
+
 }
 .box-precio-puntaje {
     position: absolute;
@@ -273,16 +301,13 @@ footer p {
 
 .descripcion-producto {
     margin-top: 100px;
-    /*    height: 500px;*/
-    /*    background-color: whitesmoke;*/
     display: inline-block;
 }
 .productos-relacionados {
-    /*    height: 600px;*/
     width: 100%;
     height: auto;
     position: relative;
-    background-color: gray;
+    background-color: #ecf0f1;
 }
 
 .box-productos {
@@ -294,7 +319,6 @@ footer p {
 }
 /*final de contenido de producto.html*/
 
-/*index*/
 
 /*slideshow*/
 
@@ -323,16 +347,20 @@ footer p {
 .caja {
     background-color: transparent;
     width: 250px;
-
+    height: 250px;
     margin: 0 auto;
 }
 
 .title1 {
+    font-family: 'Oswald', sans-serif;
     text-align: center;
     font-size: 25px;
 }
 
-
+.parrafo2 {
+    font-family: 'Lora', serif;
+    padding: 40px 40px 0px 40px;
+}
 
 .caja-principal {
     border: 1px solid #fff;
@@ -340,30 +368,54 @@ footer p {
     border-radius: 5px;
 }
 
+.caja-principal2 {
+    border: 1px solid #fff;
+    padding: 5px;
+    border-radius: 5px;
+    height: 590px;
+}
 
 .caja2 {
     margin-left:0px;
 }
 
 .parrafo3 {
+    font-family: 'Lora', serif;
     padding: 40px 0px 0px 0px;
 }
 
 .centerp {
+    font-family: 'Lora', serif;
     text-align: center;
+}
+
+.parrafo2 b {
+    font-family: 'Oswald', sans-serif;
 }
 
 
 /*final de lightbox*/
 
-<<<<<<< HEAD
-/*final del index*/
-=======
-<<<<<<< HEAD
-.main-container {
-    padding: 40px 0;
+.cajacontacto {
 
- 
-  
+    background-color: rgba(255,255,255,.6);
+    border-radius: 7px;
+    border: 2px solid #333;
+    padding: 10px 5px;
+}
 
+.titleprincipal {
+    font-family: 'oswald', serif;
+    text-align: center;
+    color: black;
+
+}
+
+.centrar {
+    text-align: center;
+}
+
+.form-control {
+    border: 1px solid #333;
+}
 
