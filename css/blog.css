@@ -9,11 +9,13 @@
   width: 65px;
 }
 .navbar-nav > li > a {
-  padding-top: 20px !important;
-  padding-bottom: 20px !important;
-  line-height: 30px !important;
-  padding: 0px 30px;
-  color: #5C3330 !important;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+    line-height: 30px !important;
+    padding: 0px 30px;
+    color: #5C3330 !important;
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
 }
 /* Underline From Left */
 .hvr-underline-from-left {
@@ -62,29 +64,31 @@
 
 /*FOOTER*/
 footer {
-  background: #f4f4f3;
-  width: 100%;
-  margin-top: 100px;
+    background: #f4f4f3;
+    width: 100%;
+/* margin-top: 100px;*/
+
 }
 footer .pstef {
-  margin-top: 20px;
-  margin-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 footer .pstef a {
-  color: #444;
+    color: olivedrab;
+    font-family: 'Oswald', sans-serif !Important;
 }
 footer .pstef a:hover {
-  text-decoration: none;
+    text-decoration: none;
 }
 footer .fa {
-  padding: 10px 30px;
-  font-size: 22px;
-  color: #5C3330 !important;
+    padding: 10px 30px;
+    font-size: 22px;
+    color: #5C3330 !important;
 }
 
 footer p {
     font-family: 'Oswald', sans-serif !Important;
-    font-size: 12px;
+    font-size: 14px;
     color: orange;
 }
 
@@ -140,20 +144,27 @@ footer p {
 
 
 /*empieza el blog*/
+
+.breadcrumb {
+    font-family:'Oswald', sans-serif;
+    font-size: 14px;
+    color: dimgray;
+}
+
 h1 {
-font-family: 'Oswald', sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-size: 50px;
-     color:  dimgray;
+    color:  dimgray;
 }
 
 h2 { 
-font-family: 'Lora', serif;
+    font-family: 'Lora', serif;
     font-family: 65px;
-     color:  dimgray;
+    color:  dimgray;
 }
 
 p {
-   font-family: 'Lora', serif;
+    font-family: 'Lora', serif;
     font-size: 18px;
 }
   
@@ -163,8 +174,8 @@ p {
 }
 
 .tituloblog {
-   padding: 300px;
-     font-size: 50px;
+     padding: 300px;
+     font-size: 25px;
      color:  blue;
 }    
 
@@ -247,9 +258,7 @@ div {
     min-height: 140px;
 }
 
-.pr-10 {
-    padding-right: 0px;
-    }
+
 
 .fa {
     display: inline-block;
@@ -317,3 +326,23 @@ div {
 }
 
     /*  Blog termina*/
+
+/* boton carrito*/
+.btn-carrito {
+    color:#5C3330;
+    font-size: 14px;
+    font-family: 'oswald', serif;
+    border-radius: 0;
+    border: 0;  
+}
+/*fin de boton carrito*/
+
+/*boton registro*/
+.btn-registrate{
+    color:#5C3330;
+    font-size: 14px;
+    font-family: 'oswald', serif;
+    border-radius: 0;
+    border: 0;
+}
+/*final boton registro*/

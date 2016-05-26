@@ -16,7 +16,7 @@
     padding: 0px 30px;
     color: #5C3330 !important;
     font-family: 'Oswald', sans-serif;
-    font-size: 12px;
+    font-size: 14px;
 }
 /* Underline From Left */
 .hvr-underline-from-left {
@@ -60,15 +60,17 @@
 }
 .paddingb50 {
     padding-bottom: 50px;
+
 }
+
 /*helpers*/
 
 /*FOOTER*/
 footer {
     background: #f4f4f3;
     width: 100%;
-    margin-top: 100px;
-    
+/* margin-top: 100px;*/
+
 }
 footer .pstef {
     margin-top: 20px;
@@ -89,7 +91,7 @@ footer .fa {
 
 footer p {
     font-family: 'Oswald', sans-serif !Important;
-    font-size: 12px;
+    font-size: 14px;
     color: orange;
 }
 
@@ -107,12 +109,42 @@ footer p {
     display: block;
 }
 
+.title-carrito {
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: dimgrey;
+    margin-top: 50px;
+    
+}
+.title-carrito-2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    color: dimgrey;
+    text-align: left;
+    
+}
+.textos-carrito {
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+}
+.text-descrip-carrito {
+    font-family:'Lora', serif;
+    font-size: 14px;
+    text-align: left;
+}
+
+    
+}
 .carrito {
     position: relative;
     margin-top: 100px;
     width: 80%;
 }
 
+.img-carrito{
+    border: 1px solid #bdc3c7;
+}
 .carrito-sidebar {
     background-color: #eee;
     position: static;
@@ -154,7 +186,9 @@ footer p {
     color: white;
     transition: all 0.5s ease;
 }
-
+.contenido-tienda a {
+    color: #444444;
+}
 .margint30 {
     margin-top: 30px !Important;
 }
@@ -196,18 +230,39 @@ footer p {
     background-color: bisque;
 }
 
-.contenido-carrusel {
-    height: 400px;
-
-}
-
 .container-carrusel {
-    height: 200px;
+    height:350px;
+    
+    background-color:#ecf0f1;
+    
 }
 
 /*final de contenido de tienda.html*/
 
 /*contenido de producto*/
+
+.btn-prices {
+    border: 1px solid transparent;
+    border-radius: 0;
+    background-color: #F4F4F4;
+    border: 1px solid #ecf0f1 !important;
+    font-family:'Oswald', sans-serif ;
+    font-size: 12px;
+    color: 
+    
+}
+
+.btn-cantidad {
+    font-family:'Oswald', sans-serif;
+    font-size: 12px;
+    background-color: #F4F4F4;
+    border: 0!important;
+    border-radius: 0;
+    height: 31px;
+    padding: 5px 13px;
+    margin-top: 2px;
+}
+
 .inf-price {
     padding-top: 5px;
     padding-bottom: 5px;
@@ -216,6 +271,7 @@ footer p {
     background: #F4F4F4;
     text-align: center;
     border: 1px solid #ecf0f1;
+    color:black;
 
 }
 .inf-stars {
@@ -226,13 +282,12 @@ footer p {
     text-align: center;
     background: #F4F4F4;
     border: 1px solid #ecf0f1;
-    
-    
+
 }
 
 .titulo-detproducto {
     font-family: 'Oswald', sans-serif;
-    
+
 }
 .description {
     font-family: 'Lora', serif;
@@ -270,7 +325,7 @@ footer p {
 
 .foto-detalle {
     margin-top:100px;
-    
+
     display: inline-block;
 }
 
@@ -302,6 +357,10 @@ footer p {
 .descripcion-producto {
     margin-top: 100px;
     display: inline-block;
+}
+
+.description{
+    text-align: justify;
 }
 .productos-relacionados {
     width: 100%;
@@ -396,6 +455,16 @@ footer p {
 
 /*final de lightbox*/
 
+
+
+.contacto {
+    background: url('../img/cocina-contacto.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 150px 0px;
+}
 .cajacontacto {
 
     background-color: rgba(255,255,255,.6);
@@ -419,3 +488,40 @@ footer p {
     border: 1px solid #333;
 }
 
+/* servicios */
+
+.title-servicio {
+    font-family:'oswald', serif;
+    
+    
+}
+
+.text-servicio {
+    font-family: 'Lora', serif;
+    font-size: 16px;
+    text-align: justify;
+    
+}
+/* final de servicio */
+
+/* boton carrito*/
+.btn-carrito {
+    color:#5C3330;
+    font-size: 14px;
+    font-family: 'oswald', serif;
+    border-radius: 0;
+    border: 0;  
+}
+/*fin de boton carrito*/
+
+/* boton de registro*/
+.btn-registrate{
+    color:#5C3330;
+    font-size: 14px;
+    font-family: 'oswald', serif;
+    border-radius: 0;
+    border: 0;
+}
+/*final de boton*/
+
+    

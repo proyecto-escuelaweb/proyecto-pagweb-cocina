@@ -26,23 +26,24 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
-                        <li><a class="hvr-underline-from-left" href="#">Inicio</a></li>
-                        <li><a class="hvr-underline-from-left" href="#">Servicios</a></li>
-                        <li><a class="hvr-underline-from-left" href="#">Tienda</a></li>
-                        <li><a class="hvr-underline-from-left" href="#">Blog</a></li>
-                        <li><a class="hvr-underline-from-left" href="#">Contacto</a></li>
+                        <li><a class="hvr-underline-from-left" href="/">Inicio</a></li>
+                        <li><a class="hvr-underline-from-left" href="servicios.html">Servicios</a></li>
+                        <li><a class="hvr-underline-from-left" href="tienda.html">Tienda</a></li>
+                        <li><a class="hvr-underline-from-left" href="blog.html">Blog</a></li>
+                        <li><a class="hvr-underline-from-left" href="contacto.html">Contacto</a></li>
                         <!--                        <li><a class="hvr-underline-from-left" href="#">Blog</a></li>-->
                         <li>
                             <a href="#">
-                                <button type="button" class="btn btn-default btn-sm">
+                                <button type="button" class="btn btn-default btn-sm btn-registrate">
                                     <span class="glyphicon glyphicon-user" aria-hidden="true"></span> Regístrate
                                 </button>
                             </a>
                         </li>
                         <li>
-                            <a href="#">
-                                <button type="button" class="btn btn-default btn-sm">
+                            <a href="carrito.html">
+                                <button type="button" class="btn btn-default btn-sm btn-registrate">
                                     <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
+                                    Carrito
                                 </button>
                             </a>
                         </li>
@@ -51,107 +52,107 @@
             </div><!-- /.container-fluid -->
         </nav>
         
-        <div class="container-fluid carrito">
-            <div class="row">
+        <div class="container carrito">
+            <div class="row paddingb50">
                 <div class="col-md-12">
-                    <h2>Carrito de Compra</h2>
+                    <h2 class="title-carrito paddingt50">Carrito de Compra</h2>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-8">
                     <div class="col-md-3 col-xs-12 ">
-                        <img src="https://placehold.it/120x120" class="img-thumbnail" alt="">
+                        <img src="img/img-carrito-1.png" class="img-responsive img-carrito" alt="">
                     </div>
                     <div class="col-md-3 col-xs-12  carrito-col">
-                        <h4>Descripcion</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, quod.</p>
+                        <h4 class="textos-carrito">Descripcion</h4>
+                        <p class=" text-descrip-carrito">Libro de Cocina Vegana
                     </div>
-                    <div class="col-md-3 col-xs-12  carrito-col">
-                        <h4>Cantidad</h4>
-                        <p><b>$0</b> <input class="textbox" type="text"></p>
+                    <div class="col-md-3 col-xs-12  carrito-col ">
+                        <h4 class="textos-carrito">Cantidad</h4>
+                        <p><b>$</b> <input class="textbox" type="text"></p>
                     </div>
                     <div class="col-md-3 col-xs-12 carrito-col">
-                        <h4>Precio Total</h4>
-                        <p><b>$0</b></p>
+                        <h4 class="textos-carrito">Precio Total</h4>
+                        <p><b>$</b></p>
                     </div>
                     <div class="carrito-border"></div>
                     <div class="col-md-3 col-xs-12 carrito-col">
-                        <img src="https://placehold.it/120x120" class="img-thumbnail" alt="">
+                        <img src="img/img-carrito-2.png" class="img-responsive img-carrito" alt="">
                     </div>
                     <div class="col-md-3 col-xs-12 carrito-col">
-                        <h4>Descripcion</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, quod.</p>
+                        <h4 class="textos-carrito">Descripcion</h4>
+                        <p class="text-descrip-carrito">Licuadora Oster 7 fuerzas</p>
                     </div>
                     <div class="col-md-3 col-xs-12 carrito-col">
-                        <h4>Cantidad</h4>
-                        <p><b>$0</b> <input class="textbox" type="text"></p>
+                        <h4 class="textos-carrito">Cantidad</h4>
+                        <p><b>$</b> <input class="textbox" type="text"></p>
                     </div>
                     <div class="col-md-3 col-xs-12 carrito-col">
-                        <h4>Precio Total</h4>
-                        <p><b>$0</b></p>
+                        <h4 class="textos-carrito">Precio Total</h4>
+                        <p><b>$</b></p>
                     </div>
                 </div>
                 <div class="col-md-4 col-xs-12 carrito-sidebar text-align-center">
-                    <h4>Opciones de Pago</h4>
+                    <h4 class="textos-carrito">Opciones de Pago</h4>
                     <p><b>Subtotal: $0000</b></p>
                     <button type="button" class="btn btn-default btn-sm btn-block">Pagar con Tarjeta de Credito</button>
                     <button type="button" class="btn btn-primary btn-sm btn-block">Pagar con Paypal</button>
                 </div>
             </div>
-            <div class="row">
-                <h3>Informacion de pago</h3>
+            <div class="row paddingb50">
+                <h3 class="title-carrito-2">Informacion de pago</h3>
                 <form class="">
                     <div class="form-group ">
                         <div class="col-md-6">
-                            <label for="text">Nombre</label>
+                            <label for="text" class="textos-carrito">Nombre</label>
                             <input type="text" class="form-control" >
                         </div>
                         <div class="col-md-6">
-                            <label for="text">Apellido</label>
+                            <label for="text" class="textos-carrito">Apellido</label>
                             <input type="email" class="form-control">
                         </div>
                     </div>
                     <br><br>
                     <div class="form-group">
-                        <div class="col-md-4">
-                            <label for="number">Numero de Tarjeta</label>
+                        <div class="col-md-6">
+                            <label for="number" class="textos-carrito">Numero de Tarjeta</label>
                             <input type="email" class="form-control">
                             <!--                                <img src="/img/payment-cc-new.png" width="150px" alt="">-->
                         </div>
-                        <div class="col-md-4">
-                            <label for="date">Fecha de Expiración</label>
+                        <div class="col-md-6">
+                            <label for="date" class="textos-carrito">Fecha de Expiración</label>
                             <input type="date" class="form-control">
                         </div>
-                        <div class="col-md-4">
-                            <label for="text">CVC <a href="">¿Que es esto?</a></label>
+                        <div class="col-md-6">
+                            <label for="text" class="textos-carrito">CVC <a href="">¿Que es esto?</a></label>
                             <input type="text" class="form-control">
                         </div>
                     </div>
                 </form>
             </div>
-            <div class="row">
-                <h3>Datos de envio</h3>
+            <div class="row paddingb50">
+                <h3 class="title-carrito-2">Datos de envio</h3>
                 <form class="col-md-12 ">
                     <div class="form-group">
                         <div class="col-md-6">
-                            <label for="text">Nombre</label>
+                            <label for="text" class="textos-carrito">Nombre</label>
                             <input type="text" class="form-control" >
                         </div>
 
                         <div class="col-md-6">
-                            <label for="text">Apellido</label>
+                            <label for="text" class="textos-carrito">Apellido</label>
                             <input type="text" class="form-control">
                         </div>
                     </div>
                     <br><br>
                     <div class="form-group">
                         <div class="col-md-6">
-                            <label for="text">Dirección</label>
+                            <label for="text" class="textos-carrito">Dirección</label>
                             <input type="text" class="form-control">
                         </div>
 
                         <div class="col-md-6">
-                            <label for="text">Casa/Apto</label>
+                            <label for="text" class="textos-carrito">Casa/Apto</label>
                             <input type="text" class="form-control">
                         </div>
 
@@ -159,22 +160,22 @@
 
                     <div class="form-group">
                         <div class="col-md-6">
-                            <label for="text">Ciudad</label>
+                            <label for="text" class="textos-carrito">Ciudad</label>
                             <input type="text" class="form-control">
                         </div>
                         <div class="col-md-6">
-                            <label for="text">País</label>
+                            <label for="text" class="textos-carrito">País</label>
                             <input type="text" class="form-control">
                         </div>
 
                     </div>
                     <div class="form-group">
                         <div class="col-md-6">
-                            <label for="text">Estado</label>
+                            <label for="text class="textos-carrito"">Estado</label>
                             <input type="text" class="form-control">
                         </div>
                         <div class="col-md-6">
-                            <label for="text">ZIP</label>
+                            <label for="text" class="textos-carrito">ZIP</label>
                             <input type="text" class="form-control">
                         </div>
                     </div>
@@ -182,44 +183,53 @@
             </div>
         </div>
 
-
-        <footer>
-            <div class="menufinal">
-                <ul class="nav navbar-nav">
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Servicios</a></li>
-                    <li><a href="#">Tienda</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Contacto</a></li>
-                    <li><a href="#">Blog</a></li>
-                </ul>
-                <div class="redes-sociales text-center">
+  <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7 col-md-offset-3 text-center pstef">
+                        <div class="col-md-2">
+                            <a href="\">Inicio</a>
+                        </div>
+                        <div class="col-md-2">
+                            <a href="servicios.html">Servicios</a>
+                        </div>
+                        <div class="col-md-2">
+                            <a href="tienda.html">Tienda</a>
+                        </div>
+                        <div class="col-md-2">
+                            <a href="blog.html">Blog</a>
+                        </div>
+                        <div class="col-md-2">
+                            <a href="contacto.html">Contacto</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row text-center">
                     <ul class="list-inline">
                         <li>
                             <a href="#">
-                                <button type="button" class="btn btn-default btn-sm">
-                                    <i class="fa fa-facebook" aria-hidden="true"></i>
-                                </button>
+
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                                <button type="button" class="btn btn-default btn-sm icon-twitter">
-                                    <i class="fa fa-twitter" aria-hidden="true"></i>
-                                </button>
+
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                                <button type="button" class="btn btn-default btn-sm">
-                                    <i class="fa fa-instagram" aria-hidden="true"></i>
-                                </button>
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
                             </a>
                         </li>
-                        <br>
-                        <p>Todos los derechos reservados - © 2016, CookWeb.</p>
                     </ul> 
                 </div> 
+                <div class="row text-center">
+                    <p>Todos los derechos reservados - © 2016, CookWeb.</p>
+                </div>
             </div>
         </footer>
 
