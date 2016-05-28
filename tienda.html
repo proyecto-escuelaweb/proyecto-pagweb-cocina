@@ -1,193 +1,236 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  
-  <title>tienda</title>
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/mediaquery.css">
-  <link rel="stylesheet" href="carousel/assets/owl.carousel.css">
-  <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
-  <script src="https://use.fontawesome.com/3aec10040d.js"></script>
-</head>
-<body>
-<nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">Brand</a>
-    </div>
+    <head>
+        <meta charset="UTF-8">
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li><a href="#">Inicio</a></li>
-        <li><a href="#">Servicios</a></li>
-        <li><a href="#">Tienda</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">Contacto</a></li>
-        <li><a href="#">Blog</a></li>
-        <li>
-        <a href="#">
-        <button type="button" class="btn btn-default btn-sm">
-        <span class="glyphicon glyphicon-user" aria-hidden="true"></span> Regístrate
-        </button>
-        </a>
-        </li>
-        <li>
-        <a href="#">
-        <button type="button" class="btn btn-default btn-sm">
-        <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
-        </button>
-        </a>
-        </li>
-      </ul>  
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
+        <title>TIENDA</title>
+        <link rel="shortcut icon" href="img/favicon.png">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/mediaquery.css">
+        <link rel="stylesheet" href="carousel/assets/owl.carousel.css">
+        <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+        <script src="https://use.fontawesome.com/3aec10040d.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <img src="img/cookweb.png" alt="brand" class="logo img-responsive">
+                </div>
 
-  <section class="video-header">
-      <div class="container-fluid">
-          <div class="row">
-              <article class="col-md-12">
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a class="hvr-underline-from-left" href="index.html">Inicio</a></li>
+                        <li><a class="hvr-underline-from-left" href="servicios.html">Servicios</a></li>
+                        <li><a class="hvr-underline-from-left" href="tienda.html">Tienda</a></li>
+                        <li><a class="hvr-underline-from-left" href="blog.html">Blog</a></li>
+                        <li><a class="hvr-underline-from-left" href="contacto.html">Contacto</a></li>
+                        <!--                        <li><a class="hvr-underline-from-left" href="#">Blog</a></li>-->
+                        <li>
+                            <a href="#">
+                                <button type="button" class="btn btn-default btn-sm btn-registrate">
+                                    <span class="glyphicon glyphicon-user" aria-hidden="true"></span> Regístrate
+                                </button>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="carrito.html">
+                                <button type="button" class="btn btn-default btn-sm btn-carrito">
+                                    <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
+                                    Carrito
+                                </button>
+                            </a>
+                        </li>
+                    </ul>  
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
 
-              </article>
-          </div>
-      </div>
-  </section>
-
-
-  <section class="buscador-tienda">
-      <div class="container">
-          <div class="row">
-
-          </div>
-      </div>
-  </section>
-
-  <section class="contenido-tienda">
-      <div class="container-cajas">
-        <div class="row">
-          <article class="col-md-4 col-xs-12">
-            <div class="box" id="c1">
-              <img src="http://placehold.it/300x270" alt="">
-              <div class="caja-interna"></div>
+        <section id="tienda"></section>
+        <section class="video-header hidden-xs">
+            <div class="container-fluid">
+                <div class="row">
+                    <video preload="auto" autoplay="" loop="" class="fillWidth fadeIn animated" poster="https://s3-us-west-2.amazonaws.com/coverr/poster/Fruity.jpg" style="width: 1349px;">
+                        <source src="https://s3-us-west-2.amazonaws.com/coverr/mp4/Fruity.mp4" type="video/mp4">Your browser does not support the video tag. I suggest you upgrade your browser.
+                        <source src="https://s3-us-west-2.amazonaws.com/coverr/mp4/Fruity.mp4" type="video/webm">Your browser does not support the video tag. I suggest you upgrade your browser.
+                    </video>
+                </div>
             </div>
-          </article>
-          <article class="col-md-4 col-xs-12">
-            <div class="box" id="c2">
-              <img src="http://placehold.it/300x270" alt="">
-              <div class="caja-interna"></div>
+        </section>
+
+
+        <section class="contenido-tienda paddingt50 paddingb50">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="right-inner-addon ">
+                            <i class="icon-search"></i>
+                            <input type="search"
+                                   class="form-control" 
+                                   placeholder="Search" />
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                   <a href="producto.html">
+                    <div class="col-md-4 col-sm-4 col-xs-12" >
+                        <div class="row">
+                            <div class="col-md-12 col-sm-12 col-xs-12">
+                                <img src="img/foto-tienda1.png" class="img-responsive w100" alt="">
+                            </div>
+                            <div class="col-md-12 col-sm-12 col-xs-12 ">
+                                <div class="price">
+                                   LIBRO DE COCINA VEGANA - 100,00$
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </a>
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="row">
+                            <div class="col-md-12 col-sm-12 col-xs-12">
+                                <img src="img/foto-tienda2.png" class="img-responsive w100" alt="">
+                            </div>
+                            <div class="col-md-12 col-sm-12 col-xs-12">
+                                <div class="price">
+                                 LICUADORA OSTER - 260,00$
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="row">
+                            <div class="col-md-12 col-sm-12 col-xs-12">
+                                <img src="img/foto-tienda3.png" class="img-responsive w100" alt="">
+                            </div>
+                            <div class="col-md-12 col-sm-12 col-xs-12 ">
+                                <div class="price">
+                                    RAYADOR DE COCINA - 70,00$
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="row">
+                            <div class="col-md-12 col-sm-12 col-xs-12">
+                                <img src="img/foto-tienda4.png" class="img-responsive w100" alt="">
+                            </div>
+                            <div class="col-md-12 col-sm-12 col-xs-12 ">
+                                <div class="price">
+                                    RAYADOR DE VEGETALES - 200,00$
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="row">
+                            <div class="col-md-12 col-sm-12 col-xs-12">
+                                <img src="img/foto-tienda5.png" class="img-responsive w100" alt="">
+                            </div>
+                            <div class="col-md-12 col-sm-12 col-xs-12 ">
+                                <div class="price">
+                                    MULTIUSO DE VEGETALES - 370,00$
+                                </div>
+
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="row">
+                            <div class="col-md-12 col-sm-12 col-xs-12">
+                                <img src="img/foto-tienda6.png" class="img-responsive w100" alt="">
+                            </div>
+                            <div class="col-md-12 col-sm-12 col-xs-12">
+                                <div class="price">
+                                    KIT MULTIUSO - 230,00$
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </article>
-          <article class="col-md-4 col-xs-12">
-            <div class="box" id="c3">
-              <img src="http://placehold.it/300x270" alt="">
-              <div class="caja-interna"></div>
-            </div>
-          </article>
-          <article class="col-md-4 col-xs-12">
-            <div class="box" id="c4">
-              <img src="http://placehold.it/300x270" alt="">
-              <div class="caja-interna"></div>
-            </div>
-          </article>
-          <article class="col-md-4 col-xs-12">
-            <div class="box" id="c5">
-              <img src="http://placehold.it/300x270" alt="">
-              <div class="caja-interna"></div>
-            </div>
-          </article>
-          <article class="col-md-4 col-xs-12">
-            <div class="box" id="c6">
-              <img src="http://placehold.it/300x270" alt="">
-              <div class="caja-interna"></div>
-            </div>
-          </article>
-        </div>
-      </div>
-  </section>
+        </section>
 
         <section class="contenido-carrusel">
-              <div class="container-carrusel">
-               <article class="col-md-10 col-md-offset-1 carrusel">
-                  <div class="owl-carousel">
-                    <div class="item"><img src="http://placehold.it/200x200" alt=""></div>
-                    <div class="item"><img src="http://placehold.it/200x200" alt=""></div>
-                    <div class="item"><img src="http://placehold.it/200x200" alt=""></div>
-                    <div class="item"><img src="http://placehold.it/200x200" alt=""></div>
-                    <div class="item"><img src="http://placehold.it/200x200" alt=""></div>
-                    <div class="item"><img src="http://placehold.it/200x200" alt=""></div>
-                </div>
+            <div class="container-carrusel paddigt50">
+                <article class="col-md-10 col-md-offset-1 carrusel ">
+                    <div class="owl-carousel">
+                        <div class="item"><img src="img/img-carrusel-1.png" class="img-resposive" alt=""></div>
+                        <div class="item"><img src="img/img-carrusel-2.png" class="img-responsive" alt=""></div>
+                        <div class="item"><img src="img/img-carrusel-3.png" class="img- resposive"alt=""></div>
+                        <div class="item"><img src="img/img-carrusel-4.png" class="img-resposive" alt=""></div>
+                        <div class="item"><img src="img/img-carrusel-5.png" class="img-resposive" alt=""></div>
+                        <div class="item"><img src="img/img-carrusel-6.png" class="img-resposive" alt=""></div>
+                    </div>
                 </article>
-              </div>
-              
-          
-              
+            </div> 
         </section>
 
         <footer>
-            <div class="menufinal">
-                <ul class="nav navbar-nav">
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Servicios</a></li>
-                    <li><a href="#">Tienda</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Contacto</a></li>
-                    <li><a href="#">Blog</a></li>
-                </ul>
-                <div class="redes-sociales text-center">
+     <div class="container">
+                <div class="row">
+                    <div class="col-md-7 col-md-offset-3 text-center pstef">
+                        <div class="col-md-2">
+                            <a href="\">Inicio</a>
+                        </div>
+                        <div class="col-md-2">
+                            <a href="servicios.html">Servicios</a>
+                        </div>
+                        <div class="col-md-2">
+                            <a href="tienda.html">Tienda</a>
+                        </div>
+                        <div class="col-md-2">
+                            <a href="blog.html">Blog</a>
+                        </div>
+                        <div class="col-md-2">
+                            <a href="contacto.html">Contacto</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row text-center">
                     <ul class="list-inline">
                         <li>
                             <a href="#">
-                                <button type="button" class="btn btn-default btn-sm">
-                                    <i class="fa fa-facebook" aria-hidden="true"></i>
-                                </button>
+                               
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                            
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                                <button type="button" class="btn btn-default btn-sm icon-twitter">
-                                    <i class="fa fa-twitter" aria-hidden="true"></i>
-                                </button>
+                                
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                               
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                                <button type="button" class="btn btn-default btn-sm">
-                                    <i class="fa fa-instagram" aria-hidden="true"></i>
-                                </button>
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
                             </a>
                         </li>
-                        <br>
-                        <br>
-                        <p>Todos los derechos reservados - © 2016, CookWeb.</p>
                     </ul> 
                 </div> 
+                <div class="row text-center">
+                    <p>Todos los derechos reservados - © 2016, CookWeb.</p>
+                </div>
             </div>
-            <br>
-
-
         </footer>
-
-
-
- <script src="js/jquery-2.2.0.min.js"></script>
- <script src="js/bootstrap.min.js"></script>
- <script src="carousel/owl.carousel.min.js"></script>
- <script src="js/main.js"></script>
- 
- 
- 
-
- 
- 
-  </body>
+        <script src="js/jquery-2.2.0.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="carousel/owl.carousel.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
 </html>
